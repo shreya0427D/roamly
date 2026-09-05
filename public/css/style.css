@@ -1,5 +1,10 @@
+/* =========================
+   SHOW LISTING
+========================= */
+
 .show-card {
-  width: 100% !important;
+  width: 600px !important;
+  margin: 0 auto;
   border: none !important;
 }
 
@@ -15,10 +20,20 @@
   padding: 10px 0 !important;
 }
 
+
+/* =========================
+   TEXT
+========================= */
+
 .card-text {
   font-size: 16px;
   line-height: 1.6;
 }
+
+
+/* =========================
+   EDIT / DELETE BUTTONS
+========================= */
 
 .btns {
   display: flex;
@@ -33,9 +48,121 @@
 .btn-danger {
   background-color: #ff385c !important;
   border-color: #ff385c !important;
+  color: white !important;
 }
 
 .btn-danger:hover {
   background-color: #e31c5f !important;
   border-color: #e31c5f !important;
+}
+
+
+/* =========================
+   ADD BUTTON
+========================= */
+
+.add-btn {
+  background-color: #ff385c !important;
+  border: 1px solid #ff385c !important;
+  color: white !important;
+  padding: 8px 20px;
+}
+
+.add-btn:hover {
+  background-color: #e31c5f !important;
+  border-color: #e31c5f !important;
+  color: white !important;
+}
+
+
+/* =========================
+   INDEX / ALL LISTINGS
+========================= */
+
+.listing-link {
+  display: block;
+  width: 20rem;
+  margin: 0 auto;
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.listing-link .card {
+  width: 20rem !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.listing-link .card-img-top {
+  width: 100% !important;
+  height: 20rem !important;
+  object-fit: cover !important;
+  border-radius: 12px !important;
+}
+
+.listing-link .card-body {
+  padding: 10px 0 !important;
+}
+
+.listing-link .card-text {
+  color: #222 !important;
+  text-decoration: none !important;
+}
+
+.listing-link:hover {
+  text-decoration: none !important;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+.f-info {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-info-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.f-info-socials i {
+  font-size: 20px;
+}
+
+.f-info-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.f-info-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
 }
